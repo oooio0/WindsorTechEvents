@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+@media only screen and (max-width:600px){
+	body{
+		color: black;
+	}
+	p{
+		color:red;
+		font-size:10px;
+		size: 80%;
+	}
+}
 h1,h5,p,#boxed,#visit{
 	position: absolute;
 	font-style: normal;
